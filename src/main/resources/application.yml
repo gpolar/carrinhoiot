@@ -1,0 +1,12 @@
+logging:
+    level: error
+    level.org.springframework.data: debug
+    file: desafioiot.log
+server:
+    port: 8082
+spring:
+    data:
+        mongodb:
+            database: desafiotio
+            host: localhost
+            port: 27019
